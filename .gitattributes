@@ -1,2 +1,4 @@
 data/raw/df_rhc_completo.csv filter=lfs diff=lfs merge=lfs -text
+data/raw/pacigeral_filtrado.csv filter=lfs diff=lfs merge=lfs -text
+data/raw/df_rhc_selected.csv filter=lfs diff=lfs merge=lfs -text
 data/raw/*.csv filter=lfs diff=lfs merge=lfs -text
