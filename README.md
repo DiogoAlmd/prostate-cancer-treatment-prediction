@@ -36,8 +36,7 @@ $ uv venv --python $(brew --prefix)/opt/python@3.12/bin/python3.12
 $ source .venv/bin/activate
 
 # All core libs, including TensorFlow, EDA, and Jupyter support
-$ uv add pandas numpy matplotlib seaborn scikit-learn imbalanced-learn \
-         xgboost tensorflow ydata-profiling ipykernel jupyter
+$ uv pip install -r pyproject.toml
 
 $ uv add my-new-lib another-lib
 ---
