@@ -1,0 +1,19 @@
+[project]
+name = "prostate-cancer-treatment-prediction"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "imbalanced-learn>=0.13.0",
+    "ipykernel>=6.29.5",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.0",
+    "numpy>=2.1.3",
+    "pandas>=2.2.3",
+    "scikit-learn>=1.6.1",
+    "seaborn>=0.13.2",
+    "tensorflow>=2.19.0",
+    "xgboost>=3.0.0",
+    "ydata-profiling>=4.16.1",
+]
